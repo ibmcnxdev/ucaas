@@ -51,7 +51,7 @@ if (typeof (dojo) != "undefined") {
                 var number = document.getElementById("businessCardDetails").children[0].textContent;
                 var aTag = document.createElement('a');
                 aTag.setAttribute('href', "TEL://"+number);
-                aTag.setAttribute('img', "/ucaas/icons/call.jpg");
+                aTag.setAttribute('img', "files/customizer/ucaas/icons/call.jpg?repoName=ucaas");
                 aTag.innerHTML = "Anrufen";
                 mydiv.appendChild(aTag);
                 
@@ -68,7 +68,7 @@ if (typeof (dojo) != "undefined") {
             number = mySpan.innerHTML;
             myNumberLink = "AHLLO1"; //"<span data-phone-type=\"telephone\"><a href='TEL://"+number+"'>Anrufen<A></span>";
             alert(myNumberLink);
-            document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[1].children[1].children[0].children[0].innerHTML=myNumberLink;
+            document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[1].children[1].children[0].children[0].appendChild(aTag); // =myNumberLink;
 
             //mobile
             mySpan = document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[2].children[1].children[0].children[0].innerHTML;
