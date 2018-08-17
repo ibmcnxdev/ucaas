@@ -61,7 +61,7 @@ if (typeof (dojo) != "undefined") {
             
 
             // office
-            var mySpan = ""
+            var mySpan = "";
             
             mySpan = document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[1].children[1].children[0].children[0].innerHTML;
             number = mySpan.innerHTML;
@@ -77,7 +77,7 @@ if (typeof (dojo) != "undefined") {
             },
                 ".lotusStreamTopLoading div.loaderMain.lotusHidden");
         } catch (e) {
-            alert("Exception occurred in helloWorld: " + e);
+            alert("Exception occurred in UCaaS ProfilePhoneNumbers: " + e);
         }
     });
 }
