@@ -56,7 +56,7 @@ if (typeof (dojo) != "undefined") {
                 mydiv.appendChild(aTag);
                 
                 var aTag2 = document.createElement('img');
-                aTag2.setAttribute('src', 'files/customizer/ucaas/icons/call.jpg?repoName=ucaas');
+                aTag2.setAttribute('src', '/files/customizer/ucaas/icons/call.jpg?repoName=ucaas');
                 mydiv.appentChild(aTag2);
 
             // Numbers in "ContactInfo"
