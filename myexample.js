@@ -45,7 +45,7 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 			// wait until the "loading..." node has been hidden
 			// indicating that we have loaded content.
-   			dojo.query("span.shareSome-title")[0].textContent="Hello UCAAS Volker! ";
+   			dojo.query("span.shareSome-title")[0].textContent="Willkommen beim UCaaS PoC für Sievert AG! ";
        	          },
 		  ".lotusStreamTopLoading div.loaderMain.lotusHidden");
       } catch(e) {
