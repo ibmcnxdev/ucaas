@@ -51,10 +51,14 @@ if (typeof (dojo) != "undefined") {
                 var number = document.getElementById("businessCardDetails").children[0].textContent;
                 var aTag = document.createElement('a');
                 aTag.setAttribute('href', "TEL://"+number);
-                aTag.innerHTML="<img src='files/customizer/ucaas/icons/call.jpg?repoName=ucaas'</img>";
-                //aTag.innerHTML = "Anrufen";
+               
+                aTag.innerHTML = "Anrufen";
                 mydiv.appendChild(aTag);
                 
+                var aTag2 = document.createElement('img');
+                aTag2.setAttribute('src', 'files/customizer/ucaas/icons/call.jpg?repoName=ucaas');
+                mydiv.appentChild(aTag2);
+
             // Numbers in "ContactInfo"
             // The following spans look as this: 
             // Original:  <span data-phone-type=\"telephone\"> +4932212297325</span>
