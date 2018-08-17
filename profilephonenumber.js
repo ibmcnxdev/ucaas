@@ -45,7 +45,7 @@ if (typeof (dojo) != "undefined") {
             waitFor(function () {
                 // wait until the "loading..." node has been hidden
 
-                // here we go
+                // here we go - number just below big name
                 //	dojo.query("span.shareSome-title")[0].textContent="Willkommen beim UCaaS PoC für Sievert AG! ";
                 var mydiv = document.getElementById("businessCardDetails").children[0];
                 var number = document.getElementById("businessCardDetails").children[0].textContent;
@@ -54,7 +54,25 @@ if (typeof (dojo) != "undefined") {
                 aTag.innerHTML = "Anrufen";
                 mydiv.appendChild(aTag);
                 
-                
+            // Numbers in "ContactInfo"
+            // The following spans look as this: 
+            // Original:  <span data-phone-type=\"telephone\"> +4932212297325</span>
+            // Target:    <span data-phone-type=\"telephone\"> +4932212297325</span>
+            
+
+            // office
+            var mySpan = ""
+            
+            mySpan = document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[1].children[1].children[0].children[0].innerHTML;
+            number = mySpan.innerHTML;
+            myNumberLink = "<span data-phone-type=\"telephone\"><a href="TEL://"+number+">Anrufen<A></span>"
+            document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[1].children[1].children[0].children[0].innerHTML=myNumberLink;
+
+            //mobile
+            mySpan = document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[2].children[1].children[0].children[0].innerHTML;
+            number = mySpan.innerHTML;
+            myNumberLink = "<span data-phone-type=\"telephone\"><a href="TEL://"+number+">Anrufen<A></span>"
+            document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[1].children[1].children[0].children[0].innerHTML=myNumberLink;
 
             },
                 ".lotusStreamTopLoading div.loaderMain.lotusHidden");
