@@ -47,12 +47,14 @@ if (typeof (dojo) != "undefined") {
 
                 // here we go
                 //	dojo.query("span.shareSome-title")[0].textContent="Willkommen beim UCaaS PoC für Sievert AG! ";
-                var mydiv = document.getElementById("businessCardDetails").children[0].telephone;
+                var mydiv = document.getElementById("businessCardDetails").children[0];
                 var number = document.getElementById("businessCardDetails").children[0].textContent;
                 var aTag = document.createElement('a');
                 aTag.setAttribute('href', "TEL://"+number);
                 aTag.innerHTML = "Anrufen";
                 mydiv.appendChild(aTag);
+                
+                
 
             },
                 ".lotusStreamTopLoading div.loaderMain.lotusHidden");
