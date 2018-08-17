@@ -57,8 +57,8 @@ if (typeof (dojo) != "undefined") {
                 aTag2.setAttribute('src', '/files/customizer/icons/call.jpg?repoName=ucaas');
             //    mydiv.appendChild(aTag2);
 
-                aTag.innerHTML = atag2; //"Anrufen";
-                mydiv.appendChild(aTag);
+                //aTag.innerHTML = atag2; //"Anrufen";
+                mydiv.appendChild(aTag2);
 
 
             // Numbers in "ContactInfo"
