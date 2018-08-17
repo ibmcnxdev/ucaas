@@ -53,6 +53,7 @@ if (typeof (dojo) != "undefined") {
                 aTag.setAttribute('href', "TEL://"+number);
                 aTag.innerHTML = "Anrufen";
                 mydiv.appendChild(aTag);
+                mydiv.append("HALLOOOOOO");
 
             },
                 ".lotusStreamTopLoading div.loaderMain.lotusHidden");
