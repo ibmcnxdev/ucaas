@@ -51,8 +51,8 @@ if (typeof (dojo) != "undefined") {
                 var number = document.getElementById("businessCardDetails").children[0].textContent;
                 var aTag = document.createElement('a');
                 aTag.setAttribute('href', "TEL://"+number);
-                aTag.setAttribute('img', "files/customizer/ucaas/icons/call.jpg?repoName=ucaas");
-                aTag.innerHTML = "Anrufen";
+                aTag.innerHTML="<img src='files/customizer/ucaas/icons/call.jpg?repoName=ucaas'</img>");
+                //aTag.innerHTML = "Anrufen";
                 mydiv.appendChild(aTag);
                 
             // Numbers in "ContactInfo"
