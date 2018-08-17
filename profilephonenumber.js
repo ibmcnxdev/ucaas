@@ -53,12 +53,11 @@ if (typeof (dojo) != "undefined") {
 
                 aTag.setAttribute('href', "TEL://"+number);
                 
-                
                 var imgTag = document.createElement('img');
                 imgTag.setAttribute('src', '/files/customizer/icons/call.jpg?repoName=ucaas');
             //    mydiv.appendChild(aTag2);
 
-                aTag.innerHTML = atag2; //"Anrufen";
+                aTag.innerHTML = "Anrufen";
                 mydiv.appendChild(aTag);
 
 
