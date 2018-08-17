@@ -65,13 +65,13 @@ if (typeof (dojo) != "undefined") {
             
             mySpan = document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[1].children[1].children[0].children[0].innerHTML;
             number = mySpan.innerHTML;
-            myNumberLink = "<span data-phone-type=\"telephone\"><a href="TEL://"+number+">Anrufen<A></span>"
+            myNumberLink = "<span data-phone-type=\"telephone\"><a href='TEL://"+number+"'>Anrufen<A></span>";
             document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[1].children[1].children[0].children[0].innerHTML=myNumberLink;
 
             //mobile
             mySpan = document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[2].children[1].children[0].children[0].innerHTML;
             number = mySpan.innerHTML;
-            myNumberLink = "<span data-phone-type=\"telephone\"><a href="TEL://"+number+">Anrufen<A></span>"
+            myNumberLink = "<span data-phone-type=\"telephone\"><a href='TEL://"+number+"'>Anrufen<A></span>";
             document.getElementById("_contactInfo_profileDetails_widget_container").children[0].children[0].children[0].children[1].children[1].children[0].children[0].innerHTML=myNumberLink;
 
             },
