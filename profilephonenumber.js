@@ -50,15 +50,16 @@ if (typeof (dojo) != "undefined") {
                 var mydiv = document.getElementById("businessCardDetails").children[0];
                 var number = document.getElementById("businessCardDetails").children[0].textContent;
                 var aTag = document.createElement('a');
+
                 aTag.setAttribute('href', "TEL://"+number);
-               
                 
-                var aTag2 = document.createElement('img');
-                aTag2.setAttribute('src', '/files/customizer/icons/call.jpg?repoName=ucaas');
+                
+                var imgTag = document.createElement('img');
+                imgTag.setAttribute('src', '/files/customizer/icons/call.jpg?repoName=ucaas');
             //    mydiv.appendChild(aTag2);
 
-                //aTag.innerHTML = atag2; //"Anrufen";
-                mydiv.appendChild(aTag2);
+                aTag.innerHTML = atag2; //"Anrufen";
+                mydiv.appendChild(aTag);
 
 
             // Numbers in "ContactInfo"
