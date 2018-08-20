@@ -46,7 +46,7 @@ if (typeof (dojo) != "undefined") {
                 // wait until the "loading..." node has been hidden
 
                 // here we go - number just below big name
-                //	dojo.query("span.shareSome-title")[0].textContent="Willkommen beim UCaaS PoC für Sievert AG! ";
+                //	dojo.query("span.shareSome-title")[0].textContent="Willkommen beim UCaaS PoC! ";
                 var mydiv = document.getElementById("businessCardDetails").children[0];
                 var number = document.getElementById("businessCardDetails").children[0].textContent;
                 var aTag = document.createElement('a');
