@@ -46,7 +46,8 @@ if (typeof (dojo) != "undefined") {
                 // wait until the "loading..." node has been hidden
 
                 // here we go - number just below big name
-                dojo.query("span.shareSome-title")[0].textContent="We change the number link! ";
+                dojo.query("span.verseHeadingText")[0].textContent="We change the number link! ";
+
             },
                 ".lotusStreamTopLoading div.loaderMain.lotusHidden");
         } catch (e) {
