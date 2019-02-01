@@ -47,7 +47,7 @@ if (typeof (dojo) != "undefined") {
 
                 // here we go - number just below big name
                 dojo.query("span.lotusText.verseHeadingText")[0].textContent="NEW NUMBERS! ";
-                prompt("Hello!")
+                prompt("Hello!");
                 document.getElementById('accessListA').onclick = function() { window.open('https://www.heise.de') };
 
             },
