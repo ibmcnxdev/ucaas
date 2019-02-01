@@ -46,6 +46,7 @@ if (typeof (dojo) != "undefined") {
                 // wait until the "loading..." node has been hidden
 
                 // here we go - number just below big name
+                prompt("Hello!")
                 document.getElementById('accessListA').onclick = function() { window.open('https://www.heise.de') };
 
             },
