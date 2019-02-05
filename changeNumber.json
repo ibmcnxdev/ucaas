@@ -1,0 +1,36 @@
+{
+    "name": "Meeting.next",
+    "title": "Meeting.next",
+    "description": "Enhancements to Connections Cloud Meetings",
+    "services": [
+        "Customizer"
+    ],
+    "match": {
+        "user-email": [
+            "volker@silvergreen.eu",
+            "mschneider@silvergreen.eu",
+            "fadams@demo.sc9.name"
+        ],
+        "url": [
+            "sthome"
+        ]
+    },
+    "extensions": [
+        {
+            "name": "Change Numbers Page",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "changeNumberLink.js"
+                ],
+                "include-repo": {
+                    "name": "ucaas"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "meetings"
+        }
+    ]
+}
