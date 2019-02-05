@@ -40,9 +40,10 @@ if (typeof (dojo) != "undefined") {
                 }, waitTime);
             };
 
-// Tester - are we active?
+            // Change link to meetings phone number page
             document.getElementById('accessListA').onclick = function() { window.open('https://www.heise.de'); };
-            prompt("Hello! V4");
+            // check
+            // prompt("Numberlink changed");
 
 
             // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
