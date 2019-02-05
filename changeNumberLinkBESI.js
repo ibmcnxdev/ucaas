@@ -23,7 +23,7 @@ if (typeof (dojo) != "undefined") {
 
 
             // Change link to meetings phone number page
-            document.getElementById('accessListA').onclick = function() { window.open('https://www.heise.de'); };
+            document.getElementById('accessListA').onclick = function() { window.open('https://www.besi.com/'); };
             // check
             // prompt("Numberlink changed");
 
