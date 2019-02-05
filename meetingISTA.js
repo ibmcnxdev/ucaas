@@ -1,9 +1,9 @@
 // ==UserScript==
 // @copyright    Copyright IBM Corp. 2019
 //
-// @name         changeNumberLink.js
+// @name         meetingsISTA.js
 // @version      0.4
-// @description  Change link to phone number page
+// @description  Change meeting page
 //
 // @namespace  http://ibm.com
 //
@@ -45,9 +45,13 @@ if (typeof (dojo) != "undefined") {
             waitFor(function () {
                 // wait until the "loading..." node has been hidden
 
-                // here we go - number just below big name
+                
                 // Change link to meetings phone number page
-                document.getElementById('accessListA').onclick = function() { window.open('https://www.heise.de'); };
+                document.getElementById('accessListA').onclick = function() { window.open('https://www.ista.com/de/'); };
+
+                // remove header
+                document.getElementById('nav_bar_include').display = 'none';
+               
                 // check
                 // prompt("Numberlink changed");
 
