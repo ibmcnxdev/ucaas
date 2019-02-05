@@ -15,7 +15,7 @@
     },
     "extensions": [
         {
-            "name": "Change Numbers Page",
+            "name": "Change Numbers Page BESI",
             "type": "com.ibm.customizer.ui",
             "payload": {
                 "include-files": [
