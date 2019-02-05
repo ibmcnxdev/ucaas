@@ -2,7 +2,7 @@
 // @copyright    Copyright IBM Corp. 2019
 //
 // @name         changeNumberLink.js
-// @version      0.2
+// @version      0.4
 // @description  Change link to phone number page
 //
 // @namespace  http://ibm.com
@@ -40,24 +40,19 @@ if (typeof (dojo) != "undefined") {
                 }, waitTime);
             };
 
-            // Change link to meetings phone number page
-            document.getElementById('accessListA').onclick = function() { window.open('https://www.heise.de'); };
-            // check
-            // prompt("Numberlink changed");
-
-
             // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
             // before we proceed to customize the page...
             waitFor(function () {
                 // wait until the "loading..." node has been hidden
 
                 // here we go - number just below big name
-                dojo.query("span.lotusText.verseHeadingText")[0].textContent="NEW NUMBERS!";
-                prompt("Hello!");
+                // Change link to meetings phone number page
                 document.getElementById('accessListA').onclick = function() { window.open('https://www.heise.de'); };
+                // check
+                // prompt("Numberlink changed");
 
             },
-            ".lotusStreamTopLoading div.loaderMain.lotusHidden");
+            "#accessListA");
             //".lotusStreamTopLoading div.loaderMain.lotusHidden");
         } catch (e) {
             alert("Exception occurred in changeNumberPage: " + e);
