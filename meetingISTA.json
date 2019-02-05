@@ -1,0 +1,33 @@
+{
+    "name": "Meeting.ISTA",
+    "title": "Meeting.ISTA",
+    "description": "Enhancements to Connections Cloud Meetings",
+    "services": [
+        "Customizer"
+    ],
+    "match": {
+        "user-email": [
+            "fadams@demo.sc9.name"
+        ],
+        "url": [
+            "sthome"
+        ]
+    },
+    "extensions": [
+        {
+            "name": "Change Numbers Page ISTA",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "meetingISTA.js"
+                ],
+                "include-repo": {
+                    "name": "ucaas"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "meetings"
+        }
+    ]
