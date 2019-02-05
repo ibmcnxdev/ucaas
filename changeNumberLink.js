@@ -41,7 +41,8 @@ if (typeof (dojo) != "undefined") {
             };
 
 // Tester - are we active?
-            prompt("Hello! V2");
+            prompt("Hello! V3");
+            document.getElementById('accessListA').onclick = function() { window.open('https://www.heise.de'); };
 
 
             // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
