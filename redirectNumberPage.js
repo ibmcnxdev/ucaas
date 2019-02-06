@@ -17,5 +17,5 @@
 //
 // ==/UserScript==
 
-document.location="https://www.heise.de";
+document.location="https://www.besi.com";
 
