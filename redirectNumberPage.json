@@ -1,0 +1,36 @@
+{
+    "name": "Meeting.redirect",
+    "title": "Meeting.redirect",
+    "description": "Enhancements to Connections Cloud Meetings",
+    "services": [
+        "Customizer"
+    ],
+    "match": {
+        "user-email": [
+            "volker@silvergreen.eu",
+            "mschneider@silvergreen.eu",
+            "xxfadams@demo.sc9.name"
+        ],
+        "url": [
+            "globalnumbers.jsp"
+        ]
+    },
+    "extensions": [
+        {
+            "name": "Redirect Numbers Page",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "redirectNumberPage.js"
+                ],
+                "include-repo": {
+                    "name": "ucaas"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "meetings"
+        }
+    ]
+}
