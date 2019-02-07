@@ -51,14 +51,15 @@ if (typeof (dojo) != "undefined") {
                 waitFor(function () {
                     // wait until the "loading..." node has been hidden
 
-                    document.'lotusText VerseHeadingText'.text = 'ista Meetings';
-                
                     // Change link to meetings phone number page
                     document.getElementById('accessListA').onclick = function() { window.open(redirectTo); };
 
                     // remove header
-                    document.'nav_bar_include'.display = 'none';
-               
+                    //document.'nav_bar_include'.display = 'none';
+
+                    // show that we are active
+                    // document.'lotusText VerseHeadingText'.text = 'ista Meetings';
+
                     // check
                     // prompt("Numberlink changed");
 
