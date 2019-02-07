@@ -44,7 +44,7 @@ if (typeof (dojo) != "undefined") {
             
             // document.location.pathname.indexOf('/sthome')
             var path = document.locationpathname;
-            if (path.indexOf("/sthome")) {
+            if (path.indexOf("/sthome") != -1) {
             
                 // here we use waitFor to wait on #accesListA element
                 // before we proceed to customize the page...
@@ -65,7 +65,7 @@ if (typeof (dojo) != "undefined") {
                 },
                 "#accessListA");
                }
-               else if(path.indexOf('/globalnumbers.jsp')) {
+               else if(path.indexOf('/globalnumbers.jsp') != -1) {
                    document.location=redirectTo;
                };
                    
