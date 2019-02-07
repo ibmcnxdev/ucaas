@@ -43,7 +43,7 @@ if (typeof (dojo) != "undefined") {
             var redirectTo = 'https://www.ista.com/de/';
             
             // document.location.pathname.indexOf('/sthome')
-            var path = document.locationpathname;
+            var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
             
                 // here we use waitFor to wait on #accesListA element
