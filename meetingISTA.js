@@ -64,7 +64,7 @@ if (typeof (dojo) != "undefined") {
                }
                else if(loc.indexOf("globalnumbers.jsp")) {
                    document.location="https://www.heise.de";
-               }
+               };
                    
            } catch (e) {
             alert("Exception occurred in changeNumberPage: " + e);
