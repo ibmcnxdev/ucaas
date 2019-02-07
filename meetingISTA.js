@@ -65,8 +65,8 @@ if (typeof (dojo) != "undefined") {
 
                 },
                 "#accessListA");
-               }
-               else if(path.indexOf('/globalnumbers.jsp') != -1) {
+               };
+               if(path.indexOf('/globalnumbers.jsp') != -1) {
                    document.location=redirectTo;
                };
                    
