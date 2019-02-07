@@ -40,8 +40,11 @@ if (typeof (dojo) != "undefined") {
                 }, waitTime);
             };
 
-            var loc = document.location;
-            if (loc.indexOf("sthome")) {
+            var redirectTo = 'https://www.ista.com/de/';
+            
+            // document.location.pathname.indexOf('/sthome')
+            var path = document.locationpathname;
+            if (path.indexOf("/sthome")) {
             
                 // here we use waitFor to wait on #accesListA element
                 // before we proceed to customize the page...
@@ -51,7 +54,7 @@ if (typeof (dojo) != "undefined") {
                     document.'lotusText VerseHeadingText'.text = 'ista Meetings';
                 
                     // Change link to meetings phone number page
-                    document.getElementById('accessListA').onclick = function() { window.open('https://www.ista.com/de/'); };
+                    document.getElementById('accessListA').onclick = function() { window.open(redirectTo); };
 
                     // remove header
                     document.'nav_bar_include'.display = 'none';
@@ -62,8 +65,8 @@ if (typeof (dojo) != "undefined") {
                 },
                 "#accessListA");
                }
-               else if(loc.indexOf("globalnumbers.jsp")) {
-                   document.location="https://www.heise.de";
+               else if(path.indexOf('/globalnumbers.jsp')) {
+                   document.location=redirectTo;
                };
                    
            } catch (e) {
