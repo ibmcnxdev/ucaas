@@ -40,26 +40,33 @@ if (typeof (dojo) != "undefined") {
                 }, waitTime);
             };
 
-            // here we use waitFor to wait on the .lotusStreamTopLoading div.loaderMain.lotusHidden element
-            // before we proceed to customize the page...
-            waitFor(function () {
-                // wait until the "loading..." node has been hidden
+            var loc = document.location;
+            if (loc.indexOf("sthome")) {
+            
+                // here we use waitFor to wait on #accesListA element
+                // before we proceed to customize the page...
+                waitFor(function () {
+                    // wait until the "loading..." node has been hidden
 
-                document.'lotusText VerseHeadingText'.text = 'ista Meetings';
+                    document.'lotusText VerseHeadingText'.text = 'ista Meetings';
                 
-                // Change link to meetings phone number page
-                document.getElementById('accessListA').onclick = function() { window.open('https://www.ista.com/de/'); };
+                    // Change link to meetings phone number page
+                    document.getElementById('accessListA').onclick = function() { window.open('https://www.ista.com/de/'); };
 
-                // remove header
-                document.'nav_bar_include'.display = 'none';
+                    // remove header
+                    document.'nav_bar_include'.display = 'none';
                
-                // check
-                // prompt("Numberlink changed");
+                    // check
+                    // prompt("Numberlink changed");
 
-            },
-            "#accessListA");
-            //".lotusStreamTopLoading div.loaderMain.lotusHidden");
-        } catch (e) {
+                },
+                "#accessListA");
+               }
+               else if(loc.indexOf("globalnumbers.jsp")) {
+                   document.location="https://www.heise.de";
+               }
+                   
+           } catch (e) {
             alert("Exception occurred in changeNumberPage: " + e);
         }
     });
