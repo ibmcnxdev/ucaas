@@ -67,8 +67,9 @@ if (typeof (dojo) != "undefined") {
                 "#accessListA");
                };
                if(path.indexOf('/globalnumbers.jsp') != -1) {
+                   prompt("GlobalNumbers!");
                    document.location=redirectTo;
-               };
+               } else { prompt("GlobalNumbers Not Found")};
                    
            } catch (e) {
             alert("Exception occurred in changeNumberPage: " + e);
