@@ -54,7 +54,7 @@ if (typeof (dojo) != "undefined") {
                     // Change link to meetings phone number page
                     document.getElementById('accessListA').onclick = function() { window.open(redirectTo); };
 
-                    var bodyNode = dojo.query('body.lotusui30');
+                    var bodyNode = dojo.query('body.lotusui30')[0];
                     dojo.addClass(bodyNode, 'all-loaded');
                     
                     // remove header
