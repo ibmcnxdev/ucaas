@@ -59,7 +59,7 @@ if (typeof (dojo) != "undefined") {
                     // hide caption
                     // document.getElementById('lotustext').style.opacity=0
                     // hide footer
-                    document.getElementById('lotusfooter').style.opacity=0
+                    //document.getElementById('lotusfooter').style.opacity=0
 
                     // show page after all changes are done
                     var bodyNode = dojo.query('body.lotusui30')[0];
