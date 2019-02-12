@@ -57,7 +57,7 @@ if (typeof (dojo) != "undefined") {
                     // hide header
                     document.getElementById('nav_bar_include').style.opacity=0
                     // hide caption
-                    77 document.getElementById('lotustext').style.opacity=0
+                    // document.getElementById('lotustext').style.opacity=0
                     // hide footer
                     document.getElementById('lotusfooter').style.opacity=0
 
