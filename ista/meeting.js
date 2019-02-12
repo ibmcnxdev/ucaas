@@ -53,16 +53,14 @@ if (typeof (dojo) != "undefined") {
 
                     // Change link to meetings phone number page
                     document.getElementById('accessListA').onclick = function() { window.open(redirectTo); };
+                    
+                    // hide header
+                    document.getElementById('nav_bar_include').style.opacity=0
 
+                    // show page after all changes are done
                     var bodyNode = dojo.query('body.lotusui30')[0];
                     dojo.addClass(bodyNode, 'all-loaded');
-                    
-                    // remove header
-                    //document.'nav_bar_include'.display = 'none';
-
-                    // show that we are active
-                    // document.'lotusText VerseHeadingText'.text = 'ista Meetings';
-
+           
                     // check
                     // prompt("Numberlink changed");
 
