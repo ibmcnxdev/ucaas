@@ -54,7 +54,7 @@ if (typeof (dojo) != "undefined") {
                     // Change link to meetings phone number page
                     document.getElementById('accessListA').onclick = function() { window.open(redirectTo); };
 
-                    var bodyNode = dojo.query('body.lotusui');
+                    var bodyNode = dojo.query('body.lotusui30');
                     dojo.addClass(bodyNode, 'all-loaded');
                     
                     // remove header
@@ -71,7 +71,7 @@ if (typeof (dojo) != "undefined") {
                };
                if(path.indexOf('/globalnumbers.jsp') != -1) {
                    // prompt("GlobalNumbers!");
-    //               document.location=redirectTo;
+                   document.location=redirectTo;
                } else { 
                    // prompt("GlobalNumbers Not Found")
                };
