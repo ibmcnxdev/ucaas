@@ -19,7 +19,8 @@
             "type": "com.ibm.customizer.ui",
             "payload": {
                 "include-files": [
-                    "ista/meeting.js"
+                    "ista/meeting.js",
+                    "ista/smoothLoad.css"
                 ],
                 "include-repo": {
                     "name": "ucaas"
