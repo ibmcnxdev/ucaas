@@ -71,7 +71,7 @@ if (typeof (dojo) != "undefined") {
                };
                if(path.indexOf('/globalnumbers.jsp') != -1) {
                    // prompt("GlobalNumbers!");
-                   document.location=redirectTo;
+    //               document.location=redirectTo;
                } else { 
                    // prompt("GlobalNumbers Not Found")
                };
