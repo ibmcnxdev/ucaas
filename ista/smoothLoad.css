@@ -1,8 +1,8 @@
-body.lotusui {
+body.lotusui30 {
   opacity: 0;
 }
 
-body.lotusui.all-loaded {
+body.lotusui30.all-loaded {
   opacity: 1;
 }
 
