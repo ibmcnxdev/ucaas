@@ -55,11 +55,11 @@ if (typeof (dojo) != "undefined") {
                     document.getElementById('accessListA').onclick = function() { window.open(redirectTo); };
                     
                     // hide header
-                    document.getElementById('nav_bar_include').style.opacity=0;
+                    document.getElementById('nav_bar_include').style.display="none";
                     // hide caption
-                    document.getElementsByClassName("lotusHeading")[0].style.opacity=0;
+                    document.getElementsByClassName("lotusHeading")[0].style.display="none";
                     // hide footer
-                    document.getElementsByClassName("lotusFooter")[0].style.opacity=0;
+                    document.getElementsByClassName("lotusFooter")[0].style.display="none";
                     // show page after all changes are done
                     
                     var bodyNode = dojo.query('body.lotusui30')[0];
