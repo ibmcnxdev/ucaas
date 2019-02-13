@@ -8,9 +8,6 @@
     "match": {
         "user-email": [
             "fadams@demo.sc9.name"
-        ],
-        "url": [
-            "sthome", "globalnumbers.jsp"
         ]
     },
     "extensions": [
