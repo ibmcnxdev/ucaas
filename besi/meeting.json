@@ -1,6 +1,6 @@
 {
-    "name": "Meeting.ISTA",
-    "title": "Meeting.ISTA",
+    "name": "Meeting.BESI",
+    "title": "Meeting.BESI",
     "description": "Enhancements to Connections Cloud Meetings",
     "services": [
         "Customizer"
@@ -12,12 +12,12 @@
     },
     "extensions": [
         {
-            "name": "Change Numbers Page ISTA",
+            "name": "Change Numbers Page BESI",
             "type": "com.ibm.customizer.ui",
             "payload": {
                 "include-files": [
-                    "ista/meeting.js",
-                    "ista/smoothLoad.css"
+                    "besi/meeting.js",
+                    "besi/smoothLoad.css"
                 ],
                 "include-repo": {
                     "name": "ucaas"
