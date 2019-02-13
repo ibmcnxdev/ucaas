@@ -56,7 +56,7 @@ if (typeof (dojo) != "undefined") {
                     
                     // hide header
                     //document.getElementById('nav_bar_include').style.display="none";
-                    document.getElementsByClasssName('lotusTitleBar2')[0].style.display="none";
+                    document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
                     // hide caption
                     document.getElementsByClassName("lotusHeading")[0].style.display="none";
                     // hide footer
