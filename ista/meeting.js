@@ -1,8 +1,8 @@
 // ==UserScript==
 // @copyright    Copyright IBM Corp. 2019
 //
-// @name         meetingsISTA.js
-// @version      0.4
+// @name         meetings.js
+// @version      0.5
 // @description  Change meeting page
 //
 // @namespace  http://ibm.com
