@@ -1,7 +1,7 @@
 // ==UserScript==
 // @copyright    Copyright IBM Corp. 2019
 //
-// @name         meetings.js
+// @name         meeting.js
 // @version      0.5
 // @description  Change meeting page
 //
@@ -42,7 +42,6 @@ if (typeof (dojo) != "undefined") {
 
             var redirectTo = 'https://www.ista.com/de/';
             
-            // document.location.pathname.indexOf('/sthome')
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
             
