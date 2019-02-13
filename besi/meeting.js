@@ -40,7 +40,7 @@ if (typeof (dojo) != "undefined") {
                 }, waitTime);
             };
 
-            var redirectTo = 'https://www.besi.com';
+            var redirectTo = 'https://apps.ce.collabserv.com/wikis/home?lang=en-us#!/wiki/W99d900f65d3d_44a0_babf_fa1be902e996/page/Call-in%20Numbers%20Testpage';
             
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
