@@ -55,7 +55,8 @@ if (typeof (dojo) != "undefined") {
                     document.getElementById('accessListA').onclick = function() { window.open(redirectTo); };
                     
                     // hide header
-                    document.getElementById('nav_bar_include').style.display="none";
+                    //document.getElementById('nav_bar_include').style.display="none";
+                    document.getElementsByClasssName('lotusTitleBar2')[0].style.display="none";
                     // hide caption
                     document.getElementsByClassName("lotusHeading")[0].style.display="none";
                     // hide footer
