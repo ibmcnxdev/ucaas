@@ -40,7 +40,7 @@ if (typeof (dojo) != "undefined") {
                 }, waitTime);
             };
 
-            var redirectTo = 'https://www.ista.com/de/';
+            var redirectTo = 'https://one.ista.com/wikis/home?#!/wiki/W1537362d7845_4212_a923_7157719ea3cd/page/ONE%20-%20Telefoneinwahlnummern';
             
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
