@@ -68,7 +68,7 @@ if (typeof (dojo) != "undefined") {
                     
                  console.log("sthome audioprovision");
            
-                 var audio = document.getElementsById("provisionPCA");
+                 var audio = document.getElementById("provisionPCA");
                   
                     // auto provision audio conferencing
                 if (audio) {
