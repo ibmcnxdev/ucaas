@@ -64,13 +64,26 @@ if (typeof (dojo) != "undefined") {
                     // hide footer
                  document.getElementsByClassName("lotusFooter")[0].style.display="none";
                     // show page after all changes are done
-                 console.log("sthome 2");
+                    
+                    
+                 console.log("sthome audioprovision");
+           
+                 var audio = document.getElementsById("provisionPCA");
                   
+                    // auto provision audio conferencing
+                if (audio) {
+                        console.log("sthome audioprovision2");
+           
+                      doProvisionAudioNew();
+                    console.log("sthome audioprovision3");
+           
+                    };                      
+                    
                     var bodyNode = dojo.query('body.lotusui30')[0];
                     dojo.addClass(bodyNode, 'all-loaded');
            
                     // check
-                console.log("sthome 3");         
+                console.log("sthome end");         
                     
                 },
                 "#code");
