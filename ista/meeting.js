@@ -76,7 +76,7 @@ if (typeof (dojo) != "undefined") {
                         link.onclick = function() { window.open(redirectTo); };
                     };           
                  // hide header
-                 document.getElementById('nav_bar_include').style.display="none";
+                 //document.getElementById('nav_bar_include').style.display="none";
                  console.log("sthome 1");
  
                  document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
