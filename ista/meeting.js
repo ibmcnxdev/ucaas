@@ -70,6 +70,12 @@ if (typeof (dojo) != "undefined") {
                     // check
                     prompt("Numberlink changed");
 
+// Change link to meetings phone number page
+                    var link = document.getElementById('accessListA');
+                    if (link) {
+                        link.onclick = function() { window.open(redirectTo); };
+                    };                    
+                    
                 },
                 "#accessListA");
                };
