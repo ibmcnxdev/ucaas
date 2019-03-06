@@ -99,7 +99,7 @@ if (typeof (dojo) != "undefined") {
                  
                     // auto provision audio conferencing
                 if (audio) {
-                        console.log("sthome audioprovision2"+audio.style);
+                        console.log("sthome audioprovision2"+audio.style.display);
            
                       doProvisionAudioNew();
                     console.log("sthome audioprovision3");
