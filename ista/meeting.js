@@ -71,14 +71,7 @@ if (typeof (dojo) != "undefined") {
                     dojo.addClass(bodyNode, 'all-loaded');
            
                     // check
-                console.log("sthome 3");
-
-
-// Change link to meetings phone number page
-                    var link = document.getElementById('accessListA');
-                    if (link) {
-                        link.onclick = function() { window.open(redirectTo); };
-                    };                    
+                console.log("sthome 3");         
                     
                 },
                 "#accessListA");
