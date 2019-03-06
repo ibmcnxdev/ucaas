@@ -55,16 +55,16 @@ if (typeof (dojo) != "undefined") {
                         link.onclick = function() { window.open(redirectTo); };
                     };           
                  // hide header
-                 //   document.getElementById('nav_bar_include').style.display="none";
+                 document.getElementById('nav_bar_include').style.display="none";
                  console.log("sthome 1");
  
-                    document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
+                 document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
                     // hide caption
-                 //   document.getElementsByClassName("lotusHeading")[0].style.display="none";
+                 document.getElementsByClassName("lotusHeading")[0].style.display="none";
                     // hide footer
-                 //   document.getElementsByClassName("lotusFooter")[0].style.display="none";
+                 document.getElementsByClassName("lotusFooter")[0].style.display="none";
                     // show page after all changes are done
-                  console.log("sthome 2");
+                 console.log("sthome 2");
                   
                     var bodyNode = dojo.query('body.lotusui30')[0];
                     dojo.addClass(bodyNode, 'all-loaded');
