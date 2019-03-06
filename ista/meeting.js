@@ -51,10 +51,10 @@ if (typeof (dojo) != "undefined") {
                     // wait until the "loading..." node has been hidden
 
                     // Change link to meetings phone number page
-                    var link = document.getElementById('accessListA');
-                    if (link) {
-                        link.onclick = function() { window.open(redirectTo); };
-                    };
+  //                  var link = document.getElementById('accessListA');
+  //                  if (link) {
+  //                      link.onclick = function() { window.open(redirectTo); };
+  //                  };
                     // hide header
                  //   document.getElementById('nav_bar_include').style.display="none";
                     document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
