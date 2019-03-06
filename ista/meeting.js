@@ -41,7 +41,7 @@ if (typeof (dojo) != "undefined") {
             };
 
               // utility function to let us wait for a specific element of the page to load...
-            var waitFor2 = function (callback, elXpath, elXpathRoot, maxInter, waitTime) {
+            var waitForStyle = function (callback, elXpath, elXpathRoot, maxInter, waitTime) {
                 if (!elXpathRoot) var elXpathRoot = dojo.body();
                 if (!maxInter) var maxInter = 10000;  // number of intervals before expiring
                 if (!waitTime) var waitTime = 1;  // 1000=1 second
@@ -90,21 +90,21 @@ if (typeof (dojo) != "undefined") {
                     
                   // new waitfor  
                     
-       waitFor2(function () {             
+       waitForStyle(function () {             
                  console.log("sthome audioprovision");
            
-                 //var audio = document.getElementById("provisionPCA");
+                 var audio = document.getElementById("provisonPCA");
                     
               
-                  
+                 
                     // auto provision audio conferencing
-                //if (audio) {
-                        console.log("sthome audioprovision2");
+                if (audio) {
+                        console.log("sthome audioprovision2"+audio.style);
            
                       doProvisionAudioNew();
                     console.log("sthome audioprovision3");
            
-                //   };                      
+                   };                      
        },"#provisonPCA");          
                     
                 // end new waitfor    
