@@ -65,21 +65,28 @@ if (typeof (dojo) != "undefined") {
                  document.getElementsByClassName("lotusFooter")[0].style.display="none";
                     // show page after all changes are done
                     
+                  
                     
+                  // new waitfor  
+                    
+       waitFor(function () {             
                  console.log("sthome audioprovision");
            
-                 var audio = document.getElementById("guestPin");
+                 //var audio = document.getElementById("provisionPCA");
                     
               
                   
                     // auto provision audio conferencing
-                if (audio) {
+                //if (audio) {
                         console.log("sthome audioprovision2"+audio.text);
            
                       doProvisionAudioNew();
                     console.log("sthome audioprovision3");
            
-                   };                      
+                //   };                      
+       },"provisionPCA");          
+                    
+                // end new waitfor    
                     
                     var bodyNode = dojo.query('body.lotusui30')[0];
                     dojo.addClass(bodyNode, 'all-loaded');
