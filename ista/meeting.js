@@ -49,13 +49,12 @@ if (typeof (dojo) != "undefined") {
                 // before we proceed to customize the page...
                 waitFor(function () {
                     // wait until the "loading..." node has been hidden
-
                     // Change link to meetings phone number page
-  //                  var link = document.getElementById('accessListA');
-  //                  if (link) {
-  //                      link.onclick = function() { window.open(redirectTo); };
-  //                  };
-                    // hide header
+                    var link = document.getElementById('accessListA');
+                    if (link) {
+                        link.onclick = function() { window.open(redirectTo); };
+                    };           
+                 // hide header
                  //   document.getElementById('nav_bar_include').style.display="none";
                  console.log("sthome 1");
  
@@ -74,7 +73,7 @@ if (typeof (dojo) != "undefined") {
                 console.log("sthome 3");         
                     
                 },
-                "#accessListA");
+                "#code");
                };
                if(path.indexOf('/globalnumbers.jsp') != -1) {
                    // prompt("GlobalNumbers!");
