@@ -71,13 +71,13 @@ if (typeof (dojo) != "undefined") {
                  var audio = document.getElementById("provisionPCA");
                   
                     // auto provision audio conferencing
-                if (audio) {
+                //if (audio) {
                         console.log("sthome audioprovision2");
            
                       doProvisionAudioNew();
                     console.log("sthome audioprovision3");
            
-                    };                      
+                 //   };                      
                     
                     var bodyNode = dojo.query('body.lotusui30')[0];
                     dojo.addClass(bodyNode, 'all-loaded');
@@ -86,7 +86,7 @@ if (typeof (dojo) != "undefined") {
                 console.log("sthome end");         
                     
                 },
-                "#code");
+                "#code"); // waiting for meeting room id
                };
                if(path.indexOf('/globalnumbers.jsp') != -1) {
                    // prompt("GlobalNumbers!");
