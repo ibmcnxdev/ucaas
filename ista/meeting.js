@@ -101,9 +101,14 @@ if (typeof (dojo) != "undefined") {
                 if (audio) {
                         console.log("sthome audioprovision2"+audio.style.display);
            
+                    if(audio.style.display!="none"){
                       doProvisionAudioNew();
-                    console.log("sthome audioprovision3");
-           
+                    console.log("sthome audioprovision-new provision was initiated");
+                    }
+                    else {
+                        console.log("sthome audioprovision-user already provisioned for audio");
+                    }
+                        ;
                    };                      
        },"#provisonPCA");          
                     
