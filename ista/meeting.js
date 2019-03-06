@@ -68,16 +68,18 @@ if (typeof (dojo) != "undefined") {
                     
                  console.log("sthome audioprovision");
            
-                 var audio = document.getElementById("provisionPCA");
+                 var audio = document.getElementById("guestPin");
+                    
+              
                   
                     // auto provision audio conferencing
-                //if (audio) {
-                        console.log("sthome audioprovision2");
+                if (audio) {
+                        console.log("sthome audioprovision2"+audio.text);
            
                       doProvisionAudioNew();
                     console.log("sthome audioprovision3");
            
-                 //   };                      
+                   };                      
                     
                     var bodyNode = dojo.query('body.lotusui30')[0];
                     dojo.addClass(bodyNode, 'all-loaded');
