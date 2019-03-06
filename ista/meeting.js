@@ -66,7 +66,7 @@ if (typeof (dojo) != "undefined") {
                     dojo.addClass(bodyNode, 'all-loaded');
            
                     // check
-                    // prompt("Numberlink changed");
+                    prompt("Numberlink changed");
 
                 },
                 "#accessListA");
