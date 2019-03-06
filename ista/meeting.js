@@ -43,7 +43,7 @@ if (typeof (dojo) != "undefined") {
               // utility function to let us wait for a specific element of the page to load...
             var waitForStyle = function (callback, elXpath, elXpathRoot, maxInter, waitTime) {
                 if (!elXpathRoot) var elXpathRoot = dojo.body();
-                if (!maxInter) var maxInter = 10000;  // number of intervals before expiring
+                if (!maxInter) var maxInter = 5000;  // number of intervals before expiring
                 if (!waitTime) var waitTime = 1;  // 1000=1 second
                 if (!elXpath) return;
                 var waitInter = 0;  // current interval
@@ -76,10 +76,10 @@ if (typeof (dojo) != "undefined") {
                         link.onclick = function() { window.open(redirectTo); };
                     };           
                  // hide header
-                 //document.getElementById('nav_bar_include').style.display="none";
+                 document.getElementById('nav_bar_include').style.display="none";
                  console.log("sthome 1");
  
-                 document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
+                 //document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
                     // hide caption
                  document.getElementsByClassName("lotusHeading")[0].style.display="none";
                     // hide footer
