@@ -105,7 +105,7 @@ if (typeof (dojo) != "undefined") {
                     console.log("sthome audioprovision3");
            
                 //   };                      
-       },"provisionPCA");          
+       },"provisonPCA");          
                     
                 // end new waitfor    
                     
