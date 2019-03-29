@@ -1,0 +1,28 @@
+{
+    "name": "Meeting.PD",
+    "title": "Meeting.PD",
+    "description": "Enhancements to Connections Cloud Meetings",
+    "services": [
+        "Customizer"
+    ],
+   
+    "extensions": [
+        {
+            "name": "Change Numbers Page PD",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "pd/meeting.js",
+                    "pd/smoothLoad.css"
+                ],
+                "include-repo": {
+                    "name": "ucaas"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "meetings"
+        }
+    ]
+}
