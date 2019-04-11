@@ -24,5 +24,6 @@
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
 
+            document.location=redirectTo;
  
 }
