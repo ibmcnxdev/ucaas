@@ -13,7 +13,8 @@
             "payload": {
                 "include-files": [
                     "pd/meeting.js",
-                    "pd/smoothLoad.css"
+                    "pd/smoothLoad.css",
+                    "pd/home.js"
                 ],
                 "include-repo": {
                     "name": "ucaas"
