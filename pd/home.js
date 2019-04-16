@@ -22,7 +22,7 @@
             var redirectTo = 'https://apps.ce.collabserv.com/meetings/sthome';
             
             var path = document.location.pathname;
-            if (path.indexOf("/sthome") != -1) {
+            if (path.indexOf("/homepage") != -1) {
 
             document.location=redirectTo;
  
