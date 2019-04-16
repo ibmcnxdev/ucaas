@@ -5,7 +5,7 @@
     "services": [
         "Customizer"
     ],
-   
+    "state": "enabled",
     "extensions": [
         {
             "name": "Change Numbers Page PD",
@@ -13,7 +13,23 @@
             "payload": {
                 "include-files": [
                     "pd/meeting.js",
-                    "pd/smoothLoad.css",
+                    "pd/smoothLoad.css"
+                ],
+                "include-repo": {
+                    "name": "ucaas"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "meetings",
+            "state": "enabled"
+        },
+        {
+            "name": "Redirect home page to meeting page",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
                     "pd/home.js"
                 ],
                 "include-repo": {
@@ -23,7 +39,8 @@
                     "cache-control": "max-age=0"
                 }
             },
-            "path": "meetings"
+            "path": "homepage",
+            "state": "enabled"
         }
     ]
 }
