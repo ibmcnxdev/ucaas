@@ -61,7 +61,7 @@ if (typeof (dojo) != "undefined") {
             };
           
             
-            var redirectTo = 'https://www.heise.de';
+            var redirectTo = 'https://cpd.partnerschaft-deutschland.de/wikis/home?lang=de-de#!/wiki/Telefon-%20%26%20Videokonferenzen/page/Willkommen%20bei%20Telefon-%20%26%20Videokonferenzen';
             
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
