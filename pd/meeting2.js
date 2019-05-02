@@ -123,7 +123,7 @@ if (typeof (dojo) != "undefined") {
                  console.log("sthome noheader");
 
                     // more style actions
-                    document.getElementsById('nav_bar_include')[0].style.display="none";
+                    document.getElementById('nav_bar_include').style.display="none";
 
                     console.log("sthome noheader done");
                  },"#nav_bar_include");                  
