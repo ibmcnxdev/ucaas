@@ -123,7 +123,7 @@ if (typeof (dojo) != "undefined") {
                  console.log("sthome noheader");
 
                     // more style actions
-                    document.getElementsByClassName('ics-scbanner custom isfixed')[0].style.display="none";
+                    document.getElementsById('nav_bar_include')[0].style.display="none";
 
                     console.log("sthome noheader done");
                  },"#nav_bar_include");                  
