@@ -110,11 +110,6 @@ if (typeof (dojo) != "undefined") {
                     else {
                         console.log("sthome audioprovision-user already provisioned for audio");
                     }
-
-                    // more style actions
-                    document.getElementsByClassName('ics-scbanner custom isfixed')[0].style.display="none";
-
-                        ;
                    };                      
        },"#provisonPCA");          
                     
@@ -123,6 +118,17 @@ if (typeof (dojo) != "undefined") {
                     var bodyNode = dojo.query('body.lotusui30')[0];
                     dojo.addClass(bodyNode, 'all-loaded');
            
+                    
+       waitForStyle(function () {             
+                 console.log("sthome noheader");
+
+                    // more style actions
+                    document.getElementsByClassName('ics-scbanner custom isfixed')[0].style.display="none";
+
+           
+                 },"#ics-scbanner");                  
+                    
+                    
                     // check
                 console.log("sthome end");         
                     
