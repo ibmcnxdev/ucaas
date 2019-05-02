@@ -125,8 +125,8 @@ if (typeof (dojo) != "undefined") {
                     // more style actions
                     document.getElementsByClassName('ics-scbanner custom isfixed')[0].style.display="none";
 
-           
-                 },"#ics-scbanner");                  
+                    console.log("sthome noheader done");
+                 },"#nav_bar_include");                  
                     
                     
                     // check
