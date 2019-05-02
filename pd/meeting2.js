@@ -79,11 +79,11 @@ if (typeof (dojo) != "undefined") {
                  // document.getElementById('nav_bar_include').style.display="none";
                  console.log("sthome 1");
  
-                 //document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
+                 document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
                     // hide caption
-                 document.getElementsByClassName("lotusHeading")[0].style.display="none";
+                 //document.getElementsByClassName("lotusHeading")[0].style.display="none";
                     // hide footer
-                 document.getElementsByClassName("lotusFooter")[0].style.display="none";
+                 //document.getElementsByClassName("lotusFooter")[0].style.display="none";
                     // show page after all changes are done
                     
                   
