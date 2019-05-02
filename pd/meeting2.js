@@ -80,7 +80,8 @@ if (typeof (dojo) != "undefined") {
                  console.log("sthome 1");
  
                  document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
-                 document.getElementsByClassName('ics-scbanner custom isfixed')[0].style.display="none";
+                    
+                    
                     // hide caption
                  //document.getElementsByClassName("lotusHeading")[0].style.display="none";
                     // hide footer
@@ -109,6 +110,10 @@ if (typeof (dojo) != "undefined") {
                     else {
                         console.log("sthome audioprovision-user already provisioned for audio");
                     }
+
+                    // more style actions
+                    document.getElementsByClassName('ics-scbanner custom isfixed')[0].style.display="none";
+
                         ;
                    };                      
        },"#provisonPCA");          
