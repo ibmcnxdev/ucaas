@@ -61,7 +61,7 @@ if (typeof (dojo) != "undefined") {
             };
           
             
-            var redirectTo = 'https://one.ista.com/wikis/home?#!/wiki/W1537362d7845_4212_a923_7157719ea3cd/page/ONE%20-%20Telefoneinwahlnummern';
+            var redirectTo = 'https://cpd.partnerschaft-deutschland.de/wikis/home?lang=de-de#!/wiki/Telefon-%20%26%20Videokonferenzen/page/Willkommen%20bei%20Telefon-%20%26%20Videokonferenzen';
             
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
@@ -76,7 +76,7 @@ if (typeof (dojo) != "undefined") {
                         link.onclick = function() { window.open(redirectTo); };
                     };           
                  // hide header
-                 document.getElementById('nav_bar_include').style.display="none";
+                 // document.getElementById('nav_bar_include').style.display="none";
                  console.log("sthome 1");
  
                  //document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";

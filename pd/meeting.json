@@ -1,0 +1,46 @@
+{
+    "name": "Meeting.PD",
+    "title": "Meeting.PD",
+    "description": "Enhancements to Connections Cloud Meetings",
+    "services": [
+        "Customizer"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Change Numbers Page PD",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "pd/meeting.js",
+                    "pd/smoothLoad.css"
+                ],
+                "include-repo": {
+                    "name": "ucaas"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "meetings",
+            "state": "enabled"
+        },
+        {
+            "name": "Redirect home page to meeting page",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "pd/home.js"
+                ],
+                "include-repo": {
+                    "name": "ucaas"
+                },
+                "cache-headers": {
+                    "cache-control": "max-age=0"
+                }
+            },
+            "path": "homepage",
+            "state": "enabled"
+        }
+    ]
+}

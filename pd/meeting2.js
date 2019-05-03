@@ -61,7 +61,7 @@ if (typeof (dojo) != "undefined") {
             };
           
             
-            var redirectTo = 'https://one.ista.com/wikis/home?#!/wiki/W1537362d7845_4212_a923_7157719ea3cd/page/ONE%20-%20Telefoneinwahlnummern';
+            var redirectTo = 'https://cpd.partnerschaft-deutschland.de/wikis/home?lang=de-de#!/wiki/Telefon-%20%26%20Videokonferenzen/page/Willkommen%20bei%20Telefon-%20%26%20Videokonferenzen';
             
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
@@ -76,14 +76,16 @@ if (typeof (dojo) != "undefined") {
                         link.onclick = function() { window.open(redirectTo); };
                     };           
                  // hide header
-                 document.getElementById('nav_bar_include').style.display="none";
+                 // document.getElementById('nav_bar_include').style.display="none";
                  console.log("sthome 1");
  
-                 //document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
+                 document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
+                    
+                    
                     // hide caption
-                 document.getElementsByClassName("lotusHeading")[0].style.display="none";
+                 //document.getElementsByClassName("lotusHeading")[0].style.display="none";
                     // hide footer
-                 document.getElementsByClassName("lotusFooter")[0].style.display="none";
+                 //document.getElementsByClassName("lotusFooter")[0].style.display="none";
                     // show page after all changes are done
                     
                   
@@ -108,7 +110,6 @@ if (typeof (dojo) != "undefined") {
                     else {
                         console.log("sthome audioprovision-user already provisioned for audio");
                     }
-                        ;
                    };                      
        },"#provisonPCA");          
                     
@@ -117,6 +118,17 @@ if (typeof (dojo) != "undefined") {
                     var bodyNode = dojo.query('body.lotusui30')[0];
                     dojo.addClass(bodyNode, 'all-loaded');
            
+                    
+       waitForStyle(function () {             
+                 console.log("sthome noheader");
+
+                    // more style actions
+                    document.getElementById('nav_bar_include').style.display="none";
+
+                    console.log("sthome noheader done");
+                 },"#nav_bar_include");                  
+                    
+                    
                     // check
                 console.log("sthome end");         
                     
