@@ -1,0 +1,22 @@
+{
+  "extensions": [
+    {
+      "path": "",
+      "application": "Disable Chat",
+      "name": "Disable chat",
+      "type": "com.ibm.chat.disable",
+      "title": "Disable chat",
+      "object": ""
+    }
+  ],
+  "icon": "",
+  "name": "Disable Chat",
+  "description": "Disable Chat",
+  "entitlement": "",
+  "services": [
+    "TopNavigationBar"
+  ],
+  "title": "Disable Chat",
+  "app_id": "com.ibm.chat.disable",
+  "url": ""
+}
