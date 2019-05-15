@@ -1,0 +1,61 @@
+{
+  "extensions": [
+    {
+      "path": ".activities",
+      "application": "Entferne Menues",
+      "name": "Entferne Activities",
+      "type": "com.ibm.action.delete",
+      "title": "Entferne Activities",
+      "object": ""
+    },
+    {
+      "path": ".communities",
+      "application": "Entferne Menues",
+      "name": "Entferne Communities",
+      "type": "com.ibm.action.delete",
+      "title": "Entferne Communities",
+      "object": ""
+    },
+    {
+      "path": ".files",
+      "application": "Entferne Menues",
+      "name": "Entferne Files",
+      "type": "com.ibm.action.delete",
+      "title": "Entferne Files",
+      "object": ""
+    },
+    {
+      "path": ".home",
+      "application": "Entferne Menues",
+      "name": "Entferne Homepage",
+      "type": "com.ibm.action.delete",
+      "title": "Entferne Homepage",
+      "object": ""
+    },
+    {
+      "path": ".org",
+      "application": "Entferne Menues",
+      "name": "Entferne Org",
+      "type": "com.ibm.action.delete",
+      "title": "Entferne Org",
+      "object": ""
+    },
+    {
+      "path": ".people",
+      "application": "Entferne Menues",
+      "name": "Entferne People",
+      "type": "com.ibm.action.delete",
+      "title": "Entferne People",
+      "object": ""
+    }
+  ],
+  "icon": "",
+  "name": "Entferne Menues",
+  "description": "Disable Communities Menu",
+  "entitlement": "",
+  "services": [
+    "TopNavigationBar"
+  ],
+  "title": "Entferne Menues",
+  "url": ""
+}
