@@ -127,7 +127,7 @@ if (typeof (dojo) != "undefined") {
                     dojo.addClass(bodyNode, 'all-loaded');
            
                     // check
-                console.log("sthome end");         
+                console.log("sthome end 13:04");         
                     
                 },
                 "#code"); // waiting for meeting room id
@@ -140,7 +140,7 @@ if (typeof (dojo) != "undefined") {
                };
             
             
-                 console.log("lotusTitleBar2.....BOTTOM 12:55");
+                 console.log("lotusTitleBar2.....BOTTOM 13:04");
                  document.getElementsByClassName("lotusTitleBar2")[0].remove(); 
             
                    
