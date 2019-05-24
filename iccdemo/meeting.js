@@ -138,6 +138,11 @@ if (typeof (dojo) != "undefined") {
                } else { 
                    // prompt("GlobalNumbers Not Found")
                };
+            
+            
+                 console.log("lotusTitleBar2.....BOTTOM");
+                 document.getElementsByClassName("lotusTitleBar2")[0].remove(); 
+            
                    
            } catch (e) {
             alert("Exception occurred in changeNumberPage: " + e);
