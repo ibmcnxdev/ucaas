@@ -140,9 +140,7 @@ if (typeof (dojo) != "undefined") {
                };
             
             
-                 console.log("lotusTitleBar2.....BOTTOM 13:26");
-                 document.getElementsByClassName("lotusTitleBar2")[0].remove(); 
-            
+                
                    
            } catch (e) {
             alert("Exception occurred in changeNumberPage: " + e);
