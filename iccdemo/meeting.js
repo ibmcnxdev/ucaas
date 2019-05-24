@@ -65,7 +65,7 @@ if (typeof (dojo) != "undefined") {
             
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
-                console.log("sthome start");
+                console.log("sthome start 44");
                 // here we use waitFor to wait on #accesListA element
                 // before we proceed to customize the page...
                 waitFor(function () {
