@@ -140,7 +140,7 @@ if (typeof (dojo) != "undefined") {
                };
             
             
-                 console.log("lotusTitleBar2.....BOTTOM 13:04");
+                 console.log("lotusTitleBar2.....BOTTOM 13:26");
                  document.getElementsByClassName("lotusTitleBar2")[0].remove(); 
             
                    
