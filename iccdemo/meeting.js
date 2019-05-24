@@ -65,7 +65,7 @@ if (typeof (dojo) != "undefined") {
             
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
-                console.log("sthome start 12:02");
+                console.log("sthome start");
                 // here we use waitFor to wait on #accesListA element
                 // before we proceed to customize the page...
                 waitFor(function () {
@@ -86,6 +86,7 @@ if (typeof (dojo) != "undefined") {
                  
                  //document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
                  //document.getElementsByClassName('lotusTitleBar2')[0].remove();
+                 console.log("lotusTitleBar2.....");
                  document.getElementsByClassName("lotusTitleBar2")[0].remove();
                     // hide caption
                  //document.getElementsByClassName("lotusHeading")[0].style.display="none";
