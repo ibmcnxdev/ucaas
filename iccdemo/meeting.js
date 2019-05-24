@@ -81,8 +81,8 @@ if (typeof (dojo) != "undefined") {
                  document.getElementById('nav_bar_include').remove();
                  console.log("sthome 1");
                     
-                 //document.getElementsByClassName('lotusInner')[0].style.display="none";
-                 document.getElementsByClassName('lotusInner')[0].remove();
+                 //document.getElementsByClassName('lotusWrapper')[0].style.display="none";
+                 document.getElementsByClassName('lotusWrapper')[0].remove();
                  
                  //document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
                  document.getElementsByClassName('lotusTitleBar2')[0].remove();
