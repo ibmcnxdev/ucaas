@@ -85,7 +85,7 @@ if (typeof (dojo) != "undefined") {
                  //document.getElementsByClassName('lotusWrapper')[0].remove();
                  
                  //document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
-                 document.getElementsByClassName('lotusTitleBar2')[0].remove();
+                 //document.getElementsByClassName('lotusTitleBar2')[0].remove();
                     // hide caption
                  //document.getElementsByClassName("lotusHeading")[0].style.display="none";
                  document.getElementsByClassName("lotusHeading")[0].remove();
