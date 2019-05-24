@@ -1,0 +1,17 @@
+
+body.lotusui30 {
+  opacity: 0;
+}
+
+body.lotusui30.all-loaded {
+  opacity: 1;
+}
+
+body.lotusui30_body {
+    color: #222;
+    background-color: #ffffff !important;
+}
+
+a.navbar_dyn_extensions {
+  display: none !important;
+}
