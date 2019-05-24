@@ -65,7 +65,7 @@ if (typeof (dojo) != "undefined") {
             
             var path = document.location.pathname;
             if (path.indexOf("/sthome") != -1) {
-                console.log("sthome start 52");
+                console.log("sthome start 12:02");
                 // here we use waitFor to wait on #accesListA element
                 // before we proceed to customize the page...
                 waitFor(function () {
@@ -78,20 +78,20 @@ if (typeof (dojo) != "undefined") {
                  // hide header
                  //document.getElementById('nav_bar_include').style.display="none";
                  // remove header
-                 //document.getElementById('nav_bar_include').remove();
+                 document.getElementById('nav_bar_include').remove();
                  console.log("sthome 1");
                     
                  //document.getElementsByClassName('lotusWrapper')[0].style.display="none";
                  //document.getElementsByClassName('lotusWrapper')[0].remove();
                  
                  //document.getElementsByClassName('lotusTitleBar2')[0].style.display="none";
-                 //document.getElementsByClassName('lotusTitleBar2')[0].remove();
+                 document.getElementsByClassName('lotusTitleBar2')[0].remove();
                     // hide caption
                  //document.getElementsByClassName("lotusHeading")[0].style.display="none";
                  //document.getElementsByClassName("lotusHeading")[0].remove();
                       // hide footer
                  //document.getElementsByClassName("lotusFooter")[0].style.display="none";
-                 //document.getElementsByClassName("lotusFooter")[0].remove();
+                 document.getElementsByClassName("lotusFooter")[0].remove();
                    
                     // show page after all changes are done
                     
